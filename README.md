@@ -27,7 +27,7 @@
 ![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)             
 
 ## 화면 구성 📺
-
+![index](image/index.png)
 
 ## 주요 기능
 
