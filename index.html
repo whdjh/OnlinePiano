@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>어디서든 악기</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="stat-nav">
+        <div class="stat-line"></div>
+        <div class="stat-nav-wrapper">
+            <button id="backButton">뒤로가기</button>
+            <div class="appbar-title">
+                <a>
+                    <span id="ism">가상 피아노</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="keyBoard">
+        <!--c1Key: 낮은도-->
+        <button class="keyBoard-key" data-note="C1" id="c1Key">도(q)</button>
+        <!--낮은레b-->
+        <div id="c1RHLKey">
+            <button class="keyBoard-key" data-note="D1b" id="c1HKey">레b (2)</button>
+            <button class="keyBoard-key" data-note="C1" id="c1RKey"></button>
+            <button class="keyBoard-key" data-note="D1" id="d1LKey"></button>
+        </div>
+        <!--d1Key: 낮은레-->
+        <button class="keyBoard-key" data-note="D1" id="d1Key">레(w)</button>
+        <!--낮은미b-->
+        <div id="d1RHLKey">
+            <button class="keyBoard-key" data-note="E1b" id="d1HKey">미b (3)</button>
+            <button class="keyBoard-key" data-note="D1" id="d1RKey"></button>
+            <button class="keyBoard-key" data-note="E1" id="e1LKey"></button>
+        </div>
+        <!--e1Key: 낮은미-->
+        <button class="keyBoard-key" data-note="E1" id="e1Key">미(e)</button>
+        <!--f1Key: 낮은파-->
+        <button class="keyBoard-key" data-note="F1" id="f1Key">파(r)</button>
+        <!--낮은솔b-->
+        <div id="f1RHLKey">
+            <button class="keyBoard-key" data-note="G1b" id="fHKey">솔b (5)</button>
+            <button class="keyBoard-key" data-note="F1" id="fRKey"></button>
+            <button class="keyBoard-key" data-note="G1" id="gLKey"></button>
+        </div>
+        <!--g1Key: 낮은솔-->
+        <button class="keyBoard-key" data-note="G1" id="g1Key">솔(t)</button>
+        <!--낮은라b-->
+        <div id = "g1RHLKey">
+            <button class="keyBoard-key" data-note="A1b" id="g1HKey">라b (6)</button>
+            <button class="keyBoard-key" data-note="G1" id="g1RKey"></button>
+            <button class="keyBoard-key" data-note="A1" id="a1LKey"></button>
+        </div>
+        <!--a1Key: 낮은라-->
+        <button class="keyBoard-key" data-note="A1" id="a1Key">라(y)</button>
+        <!--낮은시b-->
+        <div id="a1RHLKey">
+            <button class="keyBoard-key" data-note="B1b" id="a1HKey">시b (7)</button>
+            <button class="keyBoard-key" data-note="A1" id="a1RKey"></button>
+            <button class="keyBoard-key" data-note="B1" id="b1LKey"></button>
+        </div>  
+        <!--b1Key: 낮은시-->
+        <button class="keyBoard-key" data-note="B1" id="b1Key">시(u)</button>
+        <!--cKey: 도-->
+        <button class="keyBoard-key" data-note="C" id="cKey">도(z)</button>
+        <!--레b-->
+        <div id="cRHLKey">
+            <button class="keyBoard-key" data-note="Db" id="cHKey">레b (s)</button>
+            <button class="keyBoard-key" data-note="C" id="cRKey"></button>
+            <button class="keyBoard-key" data-note="D" id="dLKey"></button>
+        </div>
+        <!--dKey: 레-->
+        <button class="keyBoard-key" data-note="D" id="dKey">레(x)</button>
+        <!--미b-->
+        <div id="dRHLKey">
+            <button class="keyBoard-key" data-note="Eb" id="dHKey">미b (d)</button>
+            <button class="keyBoard-key" data-note="D" id="dRKey"></button>
+            <button class="keyBoard-key" data-note="E" id="eLKey"></button>
+        </div>
+        <!--eKey: 미-->
+        <button class="keyBoard-key" data-note="E" id="eKey">미(c)</button>
+        <!--fKey: 파-->
+        <button class="keyBoard-key" data-note="F" id="fKey">파(v)</button>
+        <!--솔b-->
+        <div id="fRHLKey">
+            <button class="keyBoard-key" data-note="Gb" id="fHKey">솔b (g)</button>
+            <button class="keyBoard-key" data-note="F" id="fRKey"></button>
+            <button class="keyBoard-key" data-note="G" id="gLKey"></button>
+        </div>
+        <!--gKey: 솔-->
+        <button class="keyBoard-key" data-note="G" id="gKey">솔(b)</button>
+        <!--라b-->
+        <div id = "gRHLKey">
+            <button class="keyBoard-key" data-note="Ab" id="gHKey">라b (h)</button>
+            <button class="keyBoard-key" data-note="G" id="gRKey"></button>
+            <button class="keyBoard-key" data-note="A" id="aLKey"></button>
+        </div>
+        <!--aKey: 라-->
+        <button class="keyBoard-key" data-note="A" id="aKey">라(n)</button>
+        <!--시b-->
+        <div id="aRHLKey">
+            <button class="keyBoard-key" data-note="Bb" id="aHKey">시b (j)</button>
+            <button class="keyBoard-key" data-note="A" id="aRKey"></button>
+            <button class="keyBoard-key" data-note="B" id="bLKey"></button>
+        </div>  
+        <!--bKey: 시-->
+        <button class="keyBoard-key" data-note="B" id="bKey">시(m)</button>
+        <!--c2key: 높은 도-->
+        <button class="keyBoard-key" data-note="C2" id="c2Key">도(Q)</button>
+        <!--높은 레b-->
+        <div id="c2RHLKey">
+            <button class="keyBoard-key" data-note="D2b" id="c2HKey">레b (@)</button>
+            <button class="keyBoard-key" data-note="C2" id="c2RKey"></button>
+            <button class="keyBoard-key" data-note="D2" id="d2LKey"></button>
+        </div>
+        <!--d2key: 높은 레-->
+        <button class="keyBoard-key" data-note="D2" id="d2Key">레(W)</button>
+        <!--높은 미b-->
+        <div id="d2RHLKey">
+            <button class="keyBoard-key" data-note="E2b" id="d2HKey">미b (#)</button>
+            <button class="keyBoard-key" data-note="D2" id="d2RKey"></button>
+            <button class="keyBoard-key" data-note="E2" id="e2LKey"></button>
+        </div>
+        <!--e2key: 높은 미-->
+        <button class="keyBoard-key" data-note="E2" id="e2Key">미(E)</button>
+        <!--f2Key: 높은 파-->
+        <button class="keyBoard-key" data-note="F2" id="f2Key">파(R)</button>
+        <!--높은 솔b-->
+        <div id="f2RHLKey">
+            <button class="keyBoard-key" data-note="G2b" id="f2HKey">솔b (%)</button>
+            <button class="keyBoard-key" data-note="F2" id="f2RKey"></button>
+            <button class="keyBoard-key" data-note="G2" id="g2LKey"></button>
+        </div>
+        <!--g2Key: 높은 솔-->
+        <button class="keyBoard-key" data-note="G2" id="g2Key">솔(T)</button>
+        <!--높은 라b-->
+        <div id = "g2RHLKey">
+            <button class="keyBoard-key" data-note="A2b" id="g2HKey">라b (^)</button>
+            <button class="keyBoard-key" data-note="G2" id="g2RKey"></button>
+            <button class="keyBoard-key" data-note="A2" id="a2LKey"></button>
+        </div>
+        <!--a2Key: 높은 라-->
+        <button class="keyBoard-key" data-note="A2" id="a2Key">라(Y)</button>
+        <!--높은 시b-->
+        <div id="a2RHLKey">
+            <button class="keyBoard-key" data-note="B2b" id="a2HKey">시b  (&)</button>
+            <button class="keyBoard-key" data-note="A2" id="a2RKey"></button>
+            <button class="keyBoard-key" data-note="B2" id="b2LKey"></button>
+        </div>  
+        <!--b2Key: 높은 시-->
+        <button class="keyBoard-key" data-note="B2" id="b2Key">시(U)</button>
+        <!--c3Key: 매우 높은 도-->
+        <button class="keyBoard-key" data-note="C3" id="c3Key">도(Z)</button>
+        <!--매우 높은 레b-->
+        <div id="c3RHLKey">
+            <button class="keyBoard-key" data-note="D3b" id="c3HKey">레b (S)</button>
+            <button class="keyBoard-key" data-note="C3" id="c3RKey"></button>
+            <button class="keyBoard-key" data-note="D3" id="d3LKey"></button>
+        </div>
+        <!--d3Key: 매우 높은 레-->
+        <button class="keyBoard-key" data-note="D3" id="d3Key">레(X)</button>
+        <!--매우 높은 미b-->
+        <div id="d3RHLKey">
+            <button class="keyBoard-key" data-note="E3b" id="d3HKey">미b (D)</button>
+            <button class="keyBoard-key" data-note="D3" id="d3RKey"></button>
+            <button class="keyBoard-key" data-note="E3" id="e3LKey"></button>
+        </div>
+        <!--e3Key: 매우 높은 미-->
+        <button class="keyBoard-key" data-note="E3" id="e3Key">미(C)</button>
+        <!--f3Key: 매우 높은 파-->
+        <button class="keyBoard-key" data-note="F3" id="f3Key">파(V)</button>
+        <!--매우 높은 솔b-->
+        <div id="f3RHLKey">
+            <button class="keyBoard-key" data-note="G3b" id="f3HKey">솔b (G)</button>
+            <button class="keyBoard-key" data-note="F3" id="f3RKey"></button>
+            <button class="keyBoard-key" data-note="G3" id="g3LKey"></button>
+        </div>
+        <!--g3Key: 매우 높은 솔-->
+        <button class="keyBoard-key" data-note="G3" id="g3Key">솔(B)</button>
+        <!--매우 높은 라b-->
+        <div id = "g3RHLKey">
+            <button class="keyBoard-key" data-note="A3b" id="g3HKey">라b (H)</button>
+            <button class="keyBoard-key" data-note="G3" id="g3RKey"></button>
+            <button class="keyBoard-key" data-note="A3" id="a3LKey"></button>
+        </div>
+        <!--a3Key: 매우 높은 라-->
+        <button class="keyBoard-key" data-note="A3" id="a3Key">라(N)</button>
+        <!--매우 높은 시b-->
+        <div id="a3RHLKey">
+            <button class="keyBoard-key" data-note="B3b" id="a3HKey">시b (J)</button>
+            <button class="keyBoard-key" data-note="A3" id="a3RKey"></button>
+            <button class="keyBoard-key" data-note="B3" id="b3LKey"></button>
+        </div>  
+        <!--b3Key: 매우 높은 시-->
+        <button class="keyBoard-key" data-note="B3" id="b3Key">시(M)</button>
+    </div>
+    <section class="instructions">
+        "온라인 피아노를 사용하면 웹 브라우저에서 피아노 키보드의 거의 모든 악기를 연주할 수 있습니다. 
+        노트북이나 데스크탑이 있다면 연주할 수 있는 온라인 피아노입니다. 
+        노트북 키보드를 사용하여 연주할 수 있는 피아노가 제공됩니다."
+        <h1>어떻게 사용하나요?</h1>
+        <p>괄호안에 있는 문자를 이용해 키보드를 눌러 음을 나오게 만듭니다.</p>
+        <p>Web Audio API를 사용해 만들어 소리가 불안정하지만, 추후 나중에 직접 건반을 녹음해 추가 예정입니다.</p>
+        <h1>주의점</h1>
+        <p>소리가 불안정해 동시 입력을 지양합니다.</p>
+    </section>
+	<script src="js/piano.js"></script>
+</body>
+</html>

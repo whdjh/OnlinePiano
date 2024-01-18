@@ -1,0 +1,911 @@
+#subTitle {
+    background-color: gainsboro;
+    display: grid;                                                                      
+    font-size: 50px;
+    padding: 5px 0px 5px 0px;
+    border: 1px solid black;
+}
+
+#bcg {
+    display: flex;
+    border: 1px solid black;
+    padding-top: 12px;
+    padding-left: 26rem;
+    margin-top: 10px;
+    background-color: beige;
+    display: grid;
+}
+
+#keyBoard {
+    display: grid;                                                                      
+    grid-template-columns: 30px 30px 15px 30px 30px 30px 15px 30px 15px 30px 30px 30px 30px 30px 15px 30px 30px 30px 30px 15px 30px 15px 30px 30px 30px 30px 15px 30px 30px 30px 30px 15px 30px 15px 30px 30px 30px 30px 15px 30px 30px 30px 30px 15px 30px 15px 30px 30px; 
+    height: 250px;
+    font-size: 1px;
+}
+
+#c1Key {
+    padding: 200px 0px 0px 10px;
+    border: none;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+    outline: none
+}
+
+#c1RHLKey {
+    display: grid; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#c1HKey {
+    color:azure;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    outline:none;
+    border: none;
+}
+
+#c1RKey {
+    padding: 0;
+    border: none;
+    border-right: 1px solid black;
+    background: none;
+    outline:none;
+}
+
+#d1LKey {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#d1Key {
+    padding: 200px 0px 0px 0px;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+    outline: none;
+}
+
+#d1RHLKey {
+    display: grid;
+    border-bottom: 1px solid black;
+}
+
+#d1HKey {
+    color: azure;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: none;
+    outline: none;
+}
+
+#d1RKey {
+    background: none;
+    border: none;
+    border-right:1px solid black;
+    outline: none;
+}
+
+#e1Key {
+    padding: 200px 10px 0px 0px;
+    background: none;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+#e1LKey {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#f1Key {
+    padding: 200px 0px 0px 10px;
+    background: none;
+    border: none;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+#f1RHLKey {
+    display: grid;
+    border-bottom: 1px solid black;
+}  
+
+#f1HKey {
+    color: azure;
+    border: none;
+    outline: none;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+  
+#f1RKey {
+    border: none;
+    border-right:1px solid black;
+    outline: none;
+    background: none;
+}
+
+#g1Key {
+    padding: 200px 0px 0px 0px;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: none;
+}
+
+#g1RHLKey {
+    display: grid;
+    border-bottom: 1px solid black;
+}
+
+#g1RKey {
+    border: none;
+    outline: none;
+    border-right:1px solid black;
+    background: none;
+}
+
+#g1LKey {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#g1HKey {
+    color: azure;
+    border: none;
+    outline: none;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#a1Key {
+    padding: 200px 0px 0px 0px;
+    border: none;
+    border-top: 1px solid black;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#a1RHLKey {
+    display: grid;
+}
+
+#a1HKey {
+    color: azure;
+    border: none;
+    outline: none;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#a1LKey {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#a1RKey {
+    border: none;
+    outline: none;
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#b1LKey {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#b1Key {
+    padding: 200px 10px 0px 0px;
+    border: none;
+    outline: none;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#cKey {
+    padding: 200px 0px 0px 10px;
+    border: none;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+    outline: none
+}
+
+#cRHLKey {
+    display: grid; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#cHKey {
+    color:azure;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    outline:none;
+    border: none;
+}
+
+#cRKey {
+    padding: 0;
+    border: none;
+    border-right: 1px solid black;
+    background: none;
+    outline:none;
+}
+
+#dLKey {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#dKey {
+    padding: 200px 0px 0px 0px;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+    outline: none;
+}
+
+#dRHLKey {
+    display: grid;
+    border-bottom: 1px solid black;
+}
+
+#dHKey {
+    color: azure;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: none;
+    outline: none;
+}
+
+#dRKey {
+    background: none;
+    border: none;
+    border-right:1px solid black;
+    outline: none;
+}
+
+#eKey {
+    padding: 200px 10px 0px 0px;
+    background: none;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+#eLKey {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#fKey {
+    padding: 200px 0px 0px 10px;
+    background: none;
+    border: none;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+#fRHLKey {
+    display: grid;
+    border-bottom: 1px solid black;
+}  
+
+#fHKey {
+    color: azure;
+    border: none;
+    outline: none;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+  
+#fRKey {
+    border: none;
+    border-right:1px solid black;
+    outline: none;
+    background: none;
+}
+
+#gKey {
+    padding: 200px 0px 0px 0px;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: none;
+}
+
+#gRHLKey {
+    display: grid;
+    border-bottom: 1px solid black;
+}
+
+#gRKey {
+    border: none;
+    outline: none;
+    border-right:1px solid black;
+    background: none;
+}
+
+#gLKey {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#gHKey {
+    color: azure;
+    border: none;
+    outline: none;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#aKey {
+    padding: 200px 0px 0px 0px;
+    border: none;
+    border-top: 1px solid black;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#aRHLKey {
+    display: grid;
+}
+
+#aHKey {
+    color: azure;
+    border: none;
+    outline: none;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#aLKey {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#aRKey {
+    border: none;
+    outline: none;
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#bLKey {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#bKey {
+    padding: 200px 10px 0px 0px;
+    border: none;
+    outline: none;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#c2Key {
+    padding: 200px 0px 0px 10px;
+    border: none;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+    outline:none
+}
+
+#c2RHLKey {
+    display: grid; 
+    border-bottom: 1px solid black;
+}
+
+#c2HKey {
+    color: azure;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    outline:none;
+    border: none;
+}
+
+#c2RKey {
+    padding: 0;
+    border: none;
+    border-right: 1px solid black;
+    background: none;
+    outline:none;
+}
+
+#d2LKey {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#d2Key {
+    padding: 200px 0px 0px 0px;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+    outline: none;
+}
+
+#d2RHLKey {
+    display: grid;
+    border-bottom: 1px solid black;
+}
+
+#d2HKey {
+    color: azure;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: none;
+    outline: none;
+}
+
+#d2RKey {
+    background: none;
+    border: none;
+    border-right:1px solid black;
+    outline: none;
+}
+
+#e2Key {
+    padding: 200px 10px 0px 0px;
+    background: none;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    outline: none;
+}
+
+#e2LKey {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#f2Key {
+    padding: 200px 0px 0px 10px;
+    background: none;
+    border: none;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+#f2RHLKey {
+    display: grid;
+    border-bottom: 1px solid black;
+}  
+
+#f2HKey {
+    color: azure;
+    border: none;
+    outline: none;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+  
+#f2RKey {
+    border: none;
+    border-right:1px solid black;
+    outline: none;
+    background: none;
+}
+
+#g2Key {
+    padding: 200px 0px 0px 0px;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: none;
+}
+
+#g2RHLKey {
+    display: grid;
+    border-bottom: 1px solid black;
+}
+
+#g2RKey {
+    border: none;
+    outline: none;
+    border-right:1px solid black;
+    background: none;
+}
+
+#g2LKey {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#g2HKey {
+    color: azure;
+    border: none;
+    outline: none;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#a2Key {
+    padding: 200px 0px 0px 0px;
+    border: none;
+    border-top: 1px solid black;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#a2RHLKey {
+    display: grid;
+}
+
+#a2HKey {
+    color: azure;
+    border: none;
+    outline: none;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#a2LKey {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#a2RKey {
+    border: none;
+    outline: none;
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#b2LKey {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#b2Key {
+    padding: 200px 10px 0px 0px;
+    border: none;
+    outline: none;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#c3Key {
+    padding: 200px 0px 0px 10px;
+    border: none;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+    outline: none
+}
+
+#c3RHLKey {
+    display: grid; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#c3HKey {
+    color:azure;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    outline:none;
+    border: none;
+}
+
+#c3RKey {
+    padding: 0;
+    border: none;
+    border-right: 1px solid black;
+    background: none;
+    outline:none;
+}
+
+#d3LKey {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#d3Key {
+    padding: 200px 0px 0px 0px;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+    outline: none;
+}
+
+#d3RHLKey {
+    display: grid;
+    border-bottom: 1px solid black;
+}
+
+#d3HKey {
+    color: azure;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: none;
+    outline: none;
+}
+
+#d3RKey {
+    background: none;
+    border: none;
+    border-right:1px solid black;
+    outline: none;
+}
+
+#e3Key {
+    padding: 200px 10px 0px 0px;
+    background: none;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+#e3LKey {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#f3Key {
+    padding: 200px 0px 0px 10px;
+    background: none;
+    border: none;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+#f3RHLKey {
+    display: grid;
+    border-bottom: 1px solid black;
+}  
+
+#f3HKey {
+    color: azure;
+    border: none;
+    outline: none;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+  
+#f3RKey {
+    border: none;
+    border-right:1px solid black;
+    outline: none;
+    background: none;
+}
+
+#g3Key {
+    padding: 200px 0px 0px 0px;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: none;
+}
+
+#g3RHLKey {
+    display: grid;
+    border-bottom: 1px solid black;
+}
+
+#g3RKey {
+    border: none;
+    outline: none;
+    border-right:1px solid black;
+    background: none;
+}
+
+#g3LKey {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#g3HKey {
+    color: azure;
+    border: none;
+    outline: none;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#a3Key {
+    padding: 200px 0px 0px 0px;
+    border: none;
+    border-top: 1px solid black;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#a3RHLKey {
+    display: grid;
+}
+
+#a3HKey {
+    color: azure;
+    border: none;
+    outline: none;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#a3LKey {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#a3RKey {
+    border: none;
+    outline: none;
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#b3LKey {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+#b3Key {
+    padding: 200px 10px 0px 0px;
+    border: none;
+    outline: none;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+.stat-nav {
+    left: 0;
+    position: sticky;
+    right: 0;
+    top: 0;
+    height: 50px;
+    z-index: 10;
+    width: 100%;
+}
+
+.stat-line {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    box-shadow: 0 0 6px 2px rgba(0,0,0,.18);
+    z-index: 200;
+    transform: translateY(-10px) translateZ(0);
+    transition: transform linear 240ms;
+}
+
+.stat-nav-wrapper {
+    align-items: center;
+    display: flex;
+    background: #fff;
+    height: 50px;
+    left: 0;
+    position: relative; z-index: 1;
+    right: 0;
+    top: 0;
+    z-index: 200;
+    box-shadow: 0 0 20px -5px rgba(0,0,0,.4);
+}
+
+#backButton {
+    font-size: 18px;
+	background-color: black;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.appbar-title {
+    margin: 0px 0px 0px 600px;
+    color: skyblue;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    vertical-align: auto;
+    transform: translateZ(0);
+}
+
+.instructions {
+    padding: 3%;
+    text-align: justify;
+    font-size: 14px;
+    color: #777;
+}
+
+.instructions h1 {
+    font-size: 18px;
+    color: skyblue;
+}
