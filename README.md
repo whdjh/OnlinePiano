@@ -27,20 +27,8 @@
 ![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)             
 
 ## 화면 구성 📺
-![index](image/index.png)
+- Vanilla JS
+![index](https://github.com/user-attachments/assets/a5e62567-3ba8-46c4-9962-76932e5caea6)
+
 
 ## 주요 기능
-
-### 키보드를 이용해 각 키매핑을 해서 음을 다르게 칠 수 있습니다.
-  - 미흡 사항으론 동시 입력시 오류가 발생하는 오류가 있습니다.
-  - API가 다른 악기를 지원한다면 악기를 추가할 예정입니다.
-
-## 코드 구조
-* css
-  - style.css
-  
-* js
-  - main.js
-  - piano.js
-
-* index.html
