@@ -16,8 +16,8 @@ export default function Main() {
         <button className={`${styles.key} ${styles.white}`}>라</button>
         <button className={`${styles.key} ${styles.black}`}>시b</button>
         <button className={`${styles.key} ${styles.white}`}>시</button>
-        
       </div>
+      
       <div className={styles.piano}>
         <button className={`${styles.key} ${styles.white}`}>도</button>
         <button className={`${styles.key} ${styles.black}`}>레b</button>
