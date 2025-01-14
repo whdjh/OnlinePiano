@@ -1,7 +1,9 @@
-import styles from './Main.module.css';
+import Piano from './Piano';
 
 export default function Main() {
   return (
-    <div>메인 부분입니다.</div>
+    <>
+      <Piano />
+    </>
   );
 }

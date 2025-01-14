@@ -1,0 +1,27 @@
+export const keyFrequency = [
+  { label: '도', frequency: 261.00 },
+  { label: '레b', frequency: 277.00 },
+  { label: '레', frequency: 294.00 },
+  { label: '미b', frequency: 311.00 },
+  { label: '미', frequency: 330.00 },
+  { label: '파', frequency: 349.00 },
+  { label: '솔b', frequency: 370.00 },
+  { label: '솔', frequency: 392.00 },
+  { label: '라b', frequency: 415.00 },
+  { label: '라', frequency: 440.00 },
+  { label: '시b', frequency: 466.00 },
+  { label: '시', frequency: 494.00 },
+
+  { label: '도', frequency: 523.00 },
+  { label: '레b', frequency: 554.00 },
+  { label: '레', frequency: 587.00 },
+  { label: '미b', frequency: 622.00 },
+  { label: '미', frequency: 659.00 },
+  { label: '파', frequency: 698.00 },
+  { label: '솔b', frequency: 740.00 },
+  { label: '솔', frequency: 784.00 },
+  { label: '라b', frequency: 830.00 },
+  { label: '라', frequency: 880.00 },
+  { label: '시b', frequency: 932.00 },
+  { label: '시', frequency: 988.00 }
+];
