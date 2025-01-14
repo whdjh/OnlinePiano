@@ -1,20 +1,37 @@
 import styles from './piano.module.css';
+import { useEffect } from 'react';
+import { usePianoSound } from '@/util/usePianoSound';
+import { keyFrequency } from '@/type/keyFrequency';
+import { keyMapping } from '@/type/keyMapping';
 
 export default function Piano() {
+  const { playNote } = usePianoSound();
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      const frequency = keyMapping[event.key];
+
+      if (frequency) playNote(frequency);
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [playNote]);
+
   return (
     <div className={styles.piano}>
-      <button className={`${styles.key} ${styles.white}`}>도</button>
-      <button className={`${styles.key} ${styles.black}`}>레b</button>
-      <button className={`${styles.key} ${styles.white}`}>레</button>
-      <button className={`${styles.key} ${styles.black}`}>미b</button>
-      <button className={`${styles.key} ${styles.white}`}>미</button>
-      <button className={`${styles.key} ${styles.white}`}>파</button>
-      <button className={`${styles.key} ${styles.black}`}>솔b</button>
-      <button className={`${styles.key} ${styles.white}`}>솔</button>
-      <button className={`${styles.key} ${styles.black}`}>라b</button>
-      <button className={`${styles.key} ${styles.white}`}>라</button>
-      <button className={`${styles.key} ${styles.black}`}>시b</button>
-      <button className={`${styles.key} ${styles.white}`}>시</button>
+      {keyFrequency.map((key) => (
+        <button
+          key={key.label}
+          className={`${styles.key} ${key.label.includes('b') ? styles.black : styles.white}`}
+          onClick={() => playNote(key.frequency)}
+        >
+          {key.label}
+        </button>
+      ))}
     </div>
   );
 }
