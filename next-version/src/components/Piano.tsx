@@ -1,4 +1,4 @@
-import styles from './piano.module.css';
+import styles from './Piano.module.css';
 import { useEffect } from 'react';
 import { usePianoSound } from '@/util/usePianoSound';
 import { keyFrequency } from '@/type/keyFrequency';
