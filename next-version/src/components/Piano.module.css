@@ -12,6 +12,7 @@
   cursor: pointer;
   font-size: 13px;
   position: relative;
+  border: 3px solid var(--black);
 }
 
 .black {
