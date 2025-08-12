@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.line {
+  border: none;
+  height: 2px;
+  background-color: var(--black);
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin-top: 10px;
+  }
+
+  .title {
+    font-size: 30px;
+    line-height: 60px;
+  }
+
+  .line {
+    margin: 10px 0;
+  }
+}
