@@ -37,8 +37,5 @@
 - Vanilla JS
 > ![index](https://github.com/user-attachments/assets/a5e62567-3ba8-46c4-9962-76932e5caea6)
 
-- Next JS
+- React
 > <img width="965" alt="스크린샷 2025-01-15 오전 1 27 48" src="https://github.com/user-attachments/assets/0e4eabec-fa72-4910-b860-bd2f859f3ba2" />
-
-## 배포 사이트
-https://online-piano-js.netlify.app/
